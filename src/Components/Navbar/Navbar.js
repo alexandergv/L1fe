@@ -5,13 +5,15 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="left-side">L1fe</div>
+        <div className="left-side">
+          <a href="/">L1fe</a>
+        </div>
         <div className="right-side">
           <div className="navbar-login">
-            <a href="">Login</a>
+            <a href="/login">Login</a>
           </div>
           <div className="navbar-register">
-            <a href="">Register</a>
+            <a href="/register">Register</a>
           </div>
         </div>
       </nav>
